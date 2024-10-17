@@ -1,0 +1,153 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  l: 512
+  ps:
+  - 0.049269452682692824
+  - 0.12506316727450983
+  - 0.09629126244495181
+  - 0.07875144577571656
+  - 0.02052371064160787
+  - 0.02052053772534873
+  - 0.00764069758446155
+  - 0.11394246565753695
+  - 0.07907459344831391
+  - 0.0931444900348631
+  - 0.002707818780069095
+  - 0.12758827469440656
+  - 0.10950494016019362
+  - 0.027932473024370307
+  - 0.023918443359049794
+  - 0.024126226711907447
+  transition_paramss:
+  - random_state: 53707
+    type: dense
+  - random_state: 85305
+    type: dense
+  - random_state: 28693
+    type: dense
+  - random_state: 71932
+    type: dense
+  - random_state: 93016
+    type: dense
+  - random_state: 25658
+    type: dense
+  - random_state: 84478
+    type: dense
+  - random_state: 18431
+    type: dense
+  - random_state: 2747
+    type: dense
+  - random_state: 59150
+    type: dense
+  - random_state: 65725
+    type: dense
+  - random_state: 84654
+    type: dense
+  - random_state: 35773
+    type: dense
+  - random_state: 67435
+    type: dense
+  - random_state: 56886
+    type: dense
+  - random_state: 66803
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long_rope_only_depths/n_layer=2/n=16
+mask_loss: false
+memo:
+  flops_per_step: 92610232320
+model_params:
+  gpt_config:
+    in_size: 676
+    n_embd: 64
+    n_head: 4
+    n_layer: 2
+    pos_embed: false
+    rope: true
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 107979
+  save_opt: false
+  save_steps:
+  - 29
+  - 35
+  - 41
+  - 49
+  - 58
+  - 69
+  - 81
+  - 96
+  - 114
+  - 134
+  - 159
+  - 188
+  - 222
+  - 263
+  - 311
+  - 367
+  - 434
+  - 513
+  - 607
+  - 717
+  - 848
+  - 1002
+  - 1185
+  - 1400
+  - 1655
+  - 1956
+  - 2312
+  - 2733
+  - 3230
+  - 3817
+  - 4512
+  - 5333
+  - 6303
+  - 7449
+  - 8804
+  - 10405
+  - 12298
+  - 14535
+  - 17179
+  - 20303
+  - 23996
+  - 28361
+  - 33520
+  - 39617
+  - 46823
+  - 55339
+  - 65405
+  - 77301
+  - 91361
+  - 107978
+wandb:
+  group: final_v1/default_long_rope_only_depths
+  name: n_layer=2_n=16
+  project: markov_mixture

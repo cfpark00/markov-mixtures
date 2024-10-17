@@ -1,0 +1,122 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  l: 512
+  ps:
+  - 0.09622888483605832
+  - 0.2442626914976671
+  - 0.18806786558416266
+  - 0.1538105944677268
+  - 0.04008515784535251
+  - 0.0400789607764453
+  - 0.014923157613654134
+  - 0.22254268737893326
+  transition_paramss:
+  - random_state: 44131
+    type: dense
+  - random_state: 60263
+    type: dense
+  - random_state: 16023
+    type: dense
+  - random_state: 41090
+    type: dense
+  - random_state: 67221
+    type: dense
+  - random_state: 64820
+    type: dense
+  - random_state: 769
+    type: dense
+  - random_state: 59735
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long_rope_only_rmlps/rmlp=1/n=8
+mask_loss: false
+memo:
+  flops_per_step: 73282879488
+model_params:
+  gpt_config:
+    in_size: 676
+    n_embd: 64
+    n_head: 4
+    n_layer: 2
+    pos_embed: false
+    rmlp: 1
+    rope: true
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 136457
+  save_opt: false
+  save_steps:
+  - 29
+  - 35
+  - 42
+  - 50
+  - 59
+  - 70
+  - 84
+  - 99
+  - 118
+  - 140
+  - 167
+  - 198
+  - 236
+  - 280
+  - 332
+  - 395
+  - 469
+  - 557
+  - 661
+  - 786
+  - 933
+  - 1108
+  - 1316
+  - 1563
+  - 1856
+  - 2204
+  - 2618
+  - 3109
+  - 3692
+  - 4385
+  - 5207
+  - 6184
+  - 7344
+  - 8721
+  - 10357
+  - 12299
+  - 14606
+  - 17345
+  - 20598
+  - 24461
+  - 29049
+  - 34497
+  - 40967
+  - 48651
+  - 57775
+  - 68611
+  - 81478
+  - 96759
+  - 114906
+  - 136457
+wandb:
+  group: final_v1/default_long_rope_only_rmlps
+  name: rmlp=1_n=8
+  project: markov_mixture

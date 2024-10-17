@@ -1,0 +1,217 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  l: 512
+  ps:
+  - 0.026875750897640258
+  - 0.06822009068755779
+  - 0.05252544613711316
+  - 0.0429577379949394
+  - 0.011195377757724962
+  - 0.01119364697927388
+  - 0.004167886464797783
+  - 0.06215391397580111
+  - 0.043134010226088614
+  - 0.05080892876539047
+  - 0.0014770747196599795
+  - 0.06959749908793092
+  - 0.05973331006455814
+  - 0.015236747032542896
+  - 0.013047153775323945
+  - 0.01316049649232231
+  - 0.02183140956830895
+  - 0.037654772956993016
+  - 0.030994935224103643
+  - 0.020897632675997223
+  - 0.043904524928236745
+  - 0.010009614623319594
+  - 0.020963326503644797
+  - 0.026288905095302344
+  - 0.03272606236530567
+  - 0.05634161065083038
+  - 0.014327925260964476
+  - 0.036899749784680455
+  - 0.04250969543627922
+  - 0.0033331268361774602
+  - 0.04359539413053129
+  - 0.01223624290065907
+  transition_paramss:
+  - random_state: 80038
+    type: dense
+  - random_state: 87313
+    type: dense
+  - random_state: 10627
+    type: dense
+  - random_state: 8792
+    type: dense
+  - random_state: 73969
+    type: dense
+  - random_state: 43001
+    type: dense
+  - random_state: 76552
+    type: dense
+  - random_state: 23897
+    type: dense
+  - random_state: 68148
+    type: dense
+  - random_state: 23483
+    type: dense
+  - random_state: 48555
+    type: dense
+  - random_state: 17159
+    type: dense
+  - random_state: 80077
+    type: dense
+  - random_state: 35920
+    type: dense
+  - random_state: 92067
+    type: dense
+  - random_state: 67121
+    type: dense
+  - random_state: 69479
+    type: dense
+  - random_state: 89475
+    type: dense
+  - random_state: 19457
+    type: dense
+  - random_state: 66557
+    type: dense
+  - random_state: 77189
+    type: dense
+  - random_state: 78953
+    type: dense
+  - random_state: 52995
+    type: dense
+  - random_state: 40757
+    type: dense
+  - random_state: 9692
+    type: dense
+  - random_state: 45758
+    type: dense
+  - random_state: 72409
+    type: dense
+  - random_state: 71211
+    type: dense
+  - random_state: 65697
+    type: dense
+  - random_state: 37065
+    type: dense
+  - random_state: 92093
+    type: dense
+  - random_state: 99299
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long_rope_only_ks/k=32/n=32
+mask_loss: false
+memo:
+  flops_per_step: 92610232320
+model_params:
+  gpt_config:
+    in_size: 676
+    n_embd: 64
+    n_head: 4
+    n_layer: 2
+    pos_embed: false
+    rope: true
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 345534
+  save_opt: false
+  save_steps:
+  - 29
+  - 36
+  - 43
+  - 53
+  - 64
+  - 77
+  - 94
+  - 114
+  - 138
+  - 167
+  - 202
+  - 244
+  - 296
+  - 358
+  - 434
+  - 525
+  - 635
+  - 769
+  - 931
+  - 1127
+  - 1364
+  - 1650
+  - 1997
+  - 2418
+  - 2926
+  - 3542
+  - 4286
+  - 5188
+  - 6279
+  - 7599
+  - 9197
+  - 11131
+  - 13472
+  - 16305
+  - 19733
+  - 23883
+  - 28905
+  - 34984
+  - 42340
+  - 51243
+  - 62019
+  - 75060
+  - 90843
+  - 109946
+  - 133065
+  - 161046
+  - 194910
+  - 235896
+  - 285499
+  - 345534
+wandb:
+  group: final_v1/default_long_rope_only_ks
+  name: k=32_n=32
+  project: markov_mixture

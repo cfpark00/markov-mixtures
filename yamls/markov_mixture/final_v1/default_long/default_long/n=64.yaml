@@ -1,0 +1,345 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  l: 512
+  ps:
+  - 0.01252828437661923
+  - 0.031801183884596865
+  - 0.02448503592405033
+  - 0.02002499427184955
+  - 0.0052187891153869514
+  - 0.0052179823031527316
+  - 0.0019428840176158027
+  - 0.028973401054894224
+  - 0.0201071645765212
+  - 0.02368487157321029
+  - 0.0006885467946140303
+  - 0.03244327065673368
+  - 0.02784502275288104
+  - 0.007102696424198035
+  - 0.0060820050544928795
+  - 0.00613484040766989
+  - 0.010176835931242216
+  - 0.0175529869114712
+  - 0.014448465615022402
+  - 0.009741550513701593
+  - 0.020466344394106332
+  - 0.004666038875673791
+  - 0.009772174065679436
+  - 0.012254722862936641
+  - 0.01525544039312868
+  - 0.026263962750612414
+  - 0.006679043978342203
+  - 0.01720102855876525
+  - 0.019816136680889527
+  - 0.0015537560615892902
+  - 0.020322241311815703
+  - 0.005703994330975323
+  - 0.002175961439270552
+  - 0.03174001195961492
+  - 0.03230017855166347
+  - 0.027040713015406777
+  - 0.010189263401160772
+  - 0.0032671106734929907
+  - 0.02288744384019547
+  - 0.0147230038470061
+  - 0.004082152041979569
+  - 0.016563558439884597
+  - 0.0011502884474664469
+  - 0.030416566913483118
+  - 0.00865613331473992
+  - 0.02216122430296101
+  - 0.01042666675230494
+  - 0.01739616061572446
+  - 0.01828733827583602
+  - 0.0061833407706391105
+  - 0.03243239197236249
+  - 0.025928021998298648
+  - 0.031426032403876404
+  - 0.02993177753196315
+  - 0.019999622433965688
+  - 0.030836489856924307
+  - 0.0029600546780325647
+  - 0.006555583527038717
+  - 0.0015128428399032328
+  - 0.010882227817636826
+  - 0.013001169623561501
+  - 0.009076565271153447
+  - 0.027721086916346414
+  - 0.011933320101667673
+  transition_paramss:
+  - random_state: 86779
+    type: dense
+  - random_state: 39099
+    type: dense
+  - random_state: 8571
+    type: dense
+  - random_state: 38044
+    type: dense
+  - random_state: 51214
+    type: dense
+  - random_state: 61228
+    type: dense
+  - random_state: 48984
+    type: dense
+  - random_state: 40774
+    type: dense
+  - random_state: 2568
+    type: dense
+  - random_state: 62592
+    type: dense
+  - random_state: 67563
+    type: dense
+  - random_state: 2695
+    type: dense
+  - random_state: 48190
+    type: dense
+  - random_state: 5258
+    type: dense
+  - random_state: 87538
+    type: dense
+  - random_state: 39504
+    type: dense
+  - random_state: 33159
+    type: dense
+  - random_state: 13986
+    type: dense
+  - random_state: 61858
+    type: dense
+  - random_state: 12666
+    type: dense
+  - random_state: 38660
+    type: dense
+  - random_state: 3561
+    type: dense
+  - random_state: 26854
+    type: dense
+  - random_state: 64505
+    type: dense
+  - random_state: 52251
+    type: dense
+  - random_state: 22662
+    type: dense
+  - random_state: 8392
+    type: dense
+  - random_state: 30535
+    type: dense
+  - random_state: 78603
+    type: dense
+  - random_state: 52256
+    type: dense
+  - random_state: 89135
+    type: dense
+  - random_state: 35222
+    type: dense
+  - random_state: 77373
+    type: dense
+  - random_state: 79575
+    type: dense
+  - random_state: 96354
+    type: dense
+  - random_state: 84651
+    type: dense
+  - random_state: 63335
+    type: dense
+  - random_state: 10965
+    type: dense
+  - random_state: 24538
+    type: dense
+  - random_state: 70592
+    type: dense
+  - random_state: 98018
+    type: dense
+  - random_state: 8110
+    type: dense
+  - random_state: 79309
+    type: dense
+  - random_state: 27266
+    type: dense
+  - random_state: 52992
+    type: dense
+  - random_state: 82948
+    type: dense
+  - random_state: 98806
+    type: dense
+  - random_state: 6910
+    type: dense
+  - random_state: 90982
+    type: dense
+  - random_state: 206
+    type: dense
+  - random_state: 87054
+    type: dense
+  - random_state: 87897
+    type: dense
+  - random_state: 23419
+    type: dense
+  - random_state: 50636
+    type: dense
+  - random_state: 50015
+    type: dense
+  - random_state: 54268
+    type: dense
+  - random_state: 87939
+    type: dense
+  - random_state: 18141
+    type: dense
+  - random_state: 80356
+    type: dense
+  - random_state: 71910
+    type: dense
+  - random_state: 56044
+    type: dense
+  - random_state: 67214
+    type: dense
+  - random_state: 33827
+    type: dense
+  - random_state: 55820
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long/default_long/n=64
+mask_loss: false
+memo:
+  flops_per_step: 92610232320
+model_params:
+  gpt_config:
+    in_size: 676
+    mlp: true
+    n_embd: 64
+    n_head: 4
+    n_layer: 2
+    rope: false
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 107979
+  save_opt: false
+  save_steps:
+  - 29
+  - 35
+  - 41
+  - 49
+  - 58
+  - 69
+  - 81
+  - 96
+  - 114
+  - 134
+  - 159
+  - 188
+  - 222
+  - 263
+  - 311
+  - 367
+  - 434
+  - 513
+  - 607
+  - 717
+  - 848
+  - 1002
+  - 1185
+  - 1400
+  - 1655
+  - 1956
+  - 2312
+  - 2733
+  - 3230
+  - 3817
+  - 4512
+  - 5333
+  - 6303
+  - 7449
+  - 8804
+  - 10405
+  - 12298
+  - 14535
+  - 17179
+  - 20303
+  - 23996
+  - 28361
+  - 33520
+  - 39617
+  - 46823
+  - 55339
+  - 65405
+  - 77301
+  - 91361
+  - 107978
+wandb:
+  group: final_v1/default_long
+  name: default_long_n=64
+  project: markov_mixture

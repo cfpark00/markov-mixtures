@@ -1,0 +1,105 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 2
+  - 2
+  - 2
+  - 2
+  l: 512
+  ps:
+  - 0.1410215567872302
+  - 0.3579622176722185
+  - 0.27560979462158475
+  - 0.22540643091896656
+  transition_paramss:
+  - random_state: 54886
+    type: dense
+  - random_state: 6265
+    type: dense
+  - random_state: 82386
+    type: dense
+  - random_state: 37194
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long_rope_only_ks/k=2/n=4
+mask_loss: false
+memo:
+  flops_per_step: 92610232320
+model_params:
+  gpt_config:
+    in_size: 676
+    n_embd: 64
+    n_head: 4
+    n_layer: 2
+    pos_embed: false
+    rope: true
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 21595
+  save_opt: false
+  save_steps:
+  - 29
+  - 34
+  - 39
+  - 44
+  - 51
+  - 58
+  - 67
+  - 76
+  - 87
+  - 100
+  - 114
+  - 131
+  - 150
+  - 171
+  - 196
+  - 224
+  - 257
+  - 294
+  - 336
+  - 384
+  - 439
+  - 503
+  - 575
+  - 658
+  - 752
+  - 860
+  - 984
+  - 1125
+  - 1287
+  - 1472
+  - 1684
+  - 1926
+  - 2203
+  - 2519
+  - 2881
+  - 3296
+  - 3769
+  - 4311
+  - 4930
+  - 5639
+  - 6449
+  - 7376
+  - 8436
+  - 9649
+  - 11035
+  - 12621
+  - 14435
+  - 16509
+  - 18881
+  - 21595
+wandb:
+  group: final_v1/default_long_rope_only_ks
+  name: k=2_n=4
+  project: markov_mixture

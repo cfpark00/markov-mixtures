@@ -1,0 +1,1113 @@
+data_params:
+  batch_size: 128
+  fast_dataset: true
+  ks:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  l: 512
+  ps:
+  - 0.0029920676055308726
+  - 0.007594917967874976
+  - 0.005847638879057772
+  - 0.004782469399685733
+  - 0.0012463773476748085
+  - 0.001246184660737221
+  - 0.000464009289353362
+  - 0.006919572713418603
+  - 0.00480209372328454
+  - 0.005656539622265903
+  - 0.00016444219313073262
+  - 0.007748264345806482
+  - 0.00665008775739874
+  - 0.0016963015241275767
+  - 0.0014525349004836257
+  - 0.0014651533040826647
+  - 0.0024304829138057406
+  - 0.004192092224226227
+  - 0.0034506549034769834
+  - 0.0023265258708594716
+  - 0.004887874845779061
+  - 0.0011143667677360517
+  - 0.002333839540878824
+  - 0.0029267342750760495
+  - 0.0036433806606092473
+  - 0.006272491091089264
+  - 0.0015951227257268322
+  - 0.004108035768132941
+  - 0.00473258898403625
+  - 0.0003710758024821487
+  - 0.0048534594261240285
+  - 0.0013622564867455927
+  - 0.0005196740062411203
+  - 0.007580308582455211
+  - 0.007714090372793321
+  - 0.00645799847861441
+  - 0.002433450904397606
+  - 0.0007802677298805405
+  - 0.005466093938245644
+  - 0.00351622149868703
+  - 0.0009749199905178677
+  - 0.003955791962448238
+  - 0.00027471764666388537
+  - 0.0072642368098810445
+  - 0.0020673011005820545
+  - 0.005292654552090107
+  - 0.0024901487614265045
+  - 0.004154638183026863
+  - 0.004367473694054125
+  - 0.0014767364036144344
+  - 0.007745666243934002
+  - 0.006192260038523793
+  - 0.007505322412818335
+  - 0.00714845698238461
+  - 0.004776409970322304
+  - 0.007364524909841033
+  - 0.0007069350795764216
+  - 0.0015656372825644165
+  - 0.0003613047020214015
+  - 0.0025989481361010196
+  - 0.0031050044280019518
+  - 0.002167710765568789
+  - 0.00662048878035511
+  - 0.002849975258325461
+  - 0.002244285734457924
+  - 0.004335405710510893
+  - 0.0011257934388421828
+  - 0.006408465952206864
+  - 0.0005955585388614183
+  - 0.007883888226476975
+  - 0.006169188403271801
+  - 0.0015874688010970967
+  - 4.411422682922666e-05
+  - 0.006514430900348988
+  - 0.005646831551094719
+  - 0.00582377860723691
+  - 0.006161404088105299
+  - 0.0005915163494319141
+  - 0.0028636550267861762
+  - 0.0009256366462300288
+  - 0.006895025848586115
+  - 0.004979306728497191
+  - 0.002643426461076249
+  - 0.0005077450221809112
+  - 0.002484327002302828
+  - 0.0025977737356666494
+  - 0.005828563887144382
+  - 0.005093219553026112
+  - 0.0070876265924363245
+  - 0.0037723568433026982
+  - 0.0009553958336455644
+  - 0.005697858561136919
+  - 0.0060776407764918895
+  - 0.004483843615309056
+  - 0.006158982197070387
+  - 0.003944757138921638
+  - 0.004175926386616981
+  - 0.0034154729138312304
+  - 0.00020306434975764478
+  - 0.000861906181411569
+  - 0.00025107656998372404
+  - 0.005084056098516258
+  - 0.002511277965303013
+  - 0.004062790108678551
+  - 0.00725022530258447
+  - 0.0019915068256036584
+  - 0.003278403001677864
+  - 0.006035828933129372
+  - 0.0018277870506346586
+  - 0.0006149650808683752
+  - 0.002314721153469016
+  - 0.001287939439970333
+  - 0.00742702340425635
+  - 0.0064557858755029665
+  - 0.005060037004603915
+  - 0.00696178825761551
+  - 0.006420249969909172
+  - 0.0014904417477968294
+  - 0.007130335926697611
+  - 0.004308613067397113
+  - 0.006450351805051299
+  - 0.007158554224712566
+  - 0.002540416494867735
+  - 0.0008791656266862664
+  - 0.001820892827454605
+  - 0.003412011995807984
+  - 0.006534828603928732
+  - 0.006876070054061539
+  - 5.553809459935329e-05
+  - 0.004080178281989058
+  - 0.003334547830435713
+  - 0.00177434018734771
+  - 0.0009575617259050709
+  - 0.0026970873523544346
+  - 0.007532569778371614
+  - 0.002581953105285368
+  - 0.004144433493930038
+  - 0.005616168060868106
+  - 0.0029049073755822545
+  - 0.007763220928889778
+  - 0.007688648634195272
+  - 0.0020113990813685786
+  - 0.0039723412032812485
+  - 0.0024036096500960396
+  - 0.0022754892549108857
+  - 0.0002946766839987014
+  - 0.004869592349148406
+  - 0.004015723672037194
+  - 0.0004112454080013963
+  - 0.00222600735430923
+  - 0.0072558126562594786
+  - 0.0019137746172299653
+  - 0.0011575135243879387
+  - 0.003910063768258125
+  - 0.00787401040827616
+  - 0.0019336933487029047
+  - 0.005369451486553485
+  - 0.006084307832696112
+  - 0.0018984016970618413
+  - 0.005817461032492182
+  - 0.002938088450061078
+  - 0.005051266065514209
+  - 0.005061043208248464
+  - 0.004280113118501273
+  - 0.0007212928134962302
+  - 0.006672934118681672
+  - 0.002562597683409098
+  - 0.0014900299453012977
+  - 0.0003257380825648339
+  - 0.004720433258501869
+  - 0.005412820351447294
+  - 0.00013251425704105397
+  - 0.004090929045117702
+  - 0.0018093940746452704
+  - 0.005154055624521165
+  - 0.001392951295373915
+  - 0.005519655491052132
+  - 0.00308949093395032
+  - 0.007483202234927201
+  - 0.0010986058404839011
+  - 0.0027246575973079775
+  - 0.0009064995441192023
+  - 0.007387047958459047
+  - 0.007008751602864831
+  - 0.0020606037900013237
+  - 0.005272377470224561
+  - 0.006528497078678017
+  - 0.004435301532085522
+  - 0.004231189819202083
+  - 0.0019320718088990012
+  - 0.0007437648505975406
+  - 0.007167537119402721
+  - 0.007193119147194446
+  - 0.005057622043671417
+  - 0.0027083882448387846
+  - 0.002789710909889398
+  - 0.0057994013471331825
+  - 0.007166694333451078
+  - 0.007086617480440212
+  - 0.006230147959282453
+  - 0.005128962141881459
+  - 0.0006721642113185335
+  - 0.0012911942278824066
+  - 0.0071782293645333665
+  - 0.004844545759327501
+  - 7.347196955348725e-05
+  - 0.0008106200137572526
+  - 0.005300479306916892
+  - 4.043519050924747e-05
+  - 0.0012846382460590948
+  - 0.004383638794895217
+  - 0.005527304294689885
+  - 0.0052082862861850526
+  - 0.0017916076328933562
+  - 0.005689346134891815
+  - 0.001895298456479181
+  - 0.002599502287520367
+  - 0.0059634539496985365
+  - 0.005189685843823902
+  - 0.0067841433494968024
+  - 0.005253435167604011
+  - 0.0045400150115228
+  - 0.0007483343550395064
+  - 0.0029375505773902998
+  - 0.0021186072554592135
+  - 0.0019491463565672093
+  - 0.007773034754391351
+  - 0.003140317708562052
+  - 0.007126242199593525
+  - 0.00504194168372992
+  - 0.006349464407592336
+  - 0.004015388707213898
+  - 0.0046086796522828745
+  - 0.003934548430649575
+  - 0.001559726687745462
+  - 0.005771412625364548
+  - 0.002242990397859147
+  - 0.00019425159494430353
+  - 0.005156448267264372
+  - 0.001414874134387077
+  - 0.007512988657251274
+  - 0.007620595630778857
+  - 0.007308525756483552
+  - 0.0029570660129765343
+  - 0.00012347740410149376
+  - 0.007416006347409949
+  - 0.0034206106500013584
+  - 0.007722261045603977
+  - 0.007698016774182104
+  - 0.006814388714271619
+  - 0.00235224732174794
+  - 0.003076408589443834
+  - 0.006799427710340442
+  - 0.002531777017709632
+  - 0.0013540171832395378
+  - 0.004448086963947559
+  transition_paramss:
+  - random_state: 23093
+    type: dense
+  - random_state: 66105
+    type: dense
+  - random_state: 51885
+    type: dense
+  - random_state: 36631
+    type: dense
+  - random_state: 72991
+    type: dense
+  - random_state: 4014
+    type: dense
+  - random_state: 11093
+    type: dense
+  - random_state: 18070
+    type: dense
+  - random_state: 35777
+    type: dense
+  - random_state: 56958
+    type: dense
+  - random_state: 82074
+    type: dense
+  - random_state: 10729
+    type: dense
+  - random_state: 99713
+    type: dense
+  - random_state: 45017
+    type: dense
+  - random_state: 66320
+    type: dense
+  - random_state: 27751
+    type: dense
+  - random_state: 78069
+    type: dense
+  - random_state: 54748
+    type: dense
+  - random_state: 5801
+    type: dense
+  - random_state: 19190
+    type: dense
+  - random_state: 49689
+    type: dense
+  - random_state: 50993
+    type: dense
+  - random_state: 29592
+    type: dense
+  - random_state: 10647
+    type: dense
+  - random_state: 8716
+    type: dense
+  - random_state: 88891
+    type: dense
+  - random_state: 87545
+    type: dense
+  - random_state: 89912
+    type: dense
+  - random_state: 70316
+    type: dense
+  - random_state: 2368
+    type: dense
+  - random_state: 77575
+    type: dense
+  - random_state: 6655
+    type: dense
+  - random_state: 70031
+    type: dense
+  - random_state: 76429
+    type: dense
+  - random_state: 91083
+    type: dense
+  - random_state: 87922
+    type: dense
+  - random_state: 55766
+    type: dense
+  - random_state: 13403
+    type: dense
+  - random_state: 32097
+    type: dense
+  - random_state: 78657
+    type: dense
+  - random_state: 10966
+    type: dense
+  - random_state: 99157
+    type: dense
+  - random_state: 93848
+    type: dense
+  - random_state: 52921
+    type: dense
+  - random_state: 49726
+    type: dense
+  - random_state: 50300
+    type: dense
+  - random_state: 22677
+    type: dense
+  - random_state: 55609
+    type: dense
+  - random_state: 96825
+    type: dense
+  - random_state: 56661
+    type: dense
+  - random_state: 31024
+    type: dense
+  - random_state: 70313
+    type: dense
+  - random_state: 53006
+    type: dense
+  - random_state: 95285
+    type: dense
+  - random_state: 15338
+    type: dense
+  - random_state: 68027
+    type: dense
+  - random_state: 92772
+    type: dense
+  - random_state: 80135
+    type: dense
+  - random_state: 19508
+    type: dense
+  - random_state: 3051
+    type: dense
+  - random_state: 48747
+    type: dense
+  - random_state: 87142
+    type: dense
+  - random_state: 87235
+    type: dense
+  - random_state: 54021
+    type: dense
+  - random_state: 66412
+    type: dense
+  - random_state: 58335
+    type: dense
+  - random_state: 56179
+    type: dense
+  - random_state: 32093
+    type: dense
+  - random_state: 69678
+    type: dense
+  - random_state: 80738
+    type: dense
+  - random_state: 39734
+    type: dense
+  - random_state: 72615
+    type: dense
+  - random_state: 73523
+    type: dense
+  - random_state: 94476
+    type: dense
+  - random_state: 17019
+    type: dense
+  - random_state: 83613
+    type: dense
+  - random_state: 91794
+    type: dense
+  - random_state: 86672
+    type: dense
+  - random_state: 73847
+    type: dense
+  - random_state: 82750
+    type: dense
+  - random_state: 79634
+    type: dense
+  - random_state: 28251
+    type: dense
+  - random_state: 25945
+    type: dense
+  - random_state: 90852
+    type: dense
+  - random_state: 32217
+    type: dense
+  - random_state: 8308
+    type: dense
+  - random_state: 5949
+    type: dense
+  - random_state: 51990
+    type: dense
+  - random_state: 1150
+    type: dense
+  - random_state: 89480
+    type: dense
+  - random_state: 74740
+    type: dense
+  - random_state: 66617
+    type: dense
+  - random_state: 94841
+    type: dense
+  - random_state: 16896
+    type: dense
+  - random_state: 46175
+    type: dense
+  - random_state: 7805
+    type: dense
+  - random_state: 5237
+    type: dense
+  - random_state: 20056
+    type: dense
+  - random_state: 45543
+    type: dense
+  - random_state: 56556
+    type: dense
+  - random_state: 3343
+    type: dense
+  - random_state: 13500
+    type: dense
+  - random_state: 53222
+    type: dense
+  - random_state: 29375
+    type: dense
+  - random_state: 9662
+    type: dense
+  - random_state: 16964
+    type: dense
+  - random_state: 59638
+    type: dense
+  - random_state: 73666
+    type: dense
+  - random_state: 85067
+    type: dense
+  - random_state: 67215
+    type: dense
+  - random_state: 69042
+    type: dense
+  - random_state: 13284
+    type: dense
+  - random_state: 72789
+    type: dense
+  - random_state: 84664
+    type: dense
+  - random_state: 93468
+    type: dense
+  - random_state: 61389
+    type: dense
+  - random_state: 9435
+    type: dense
+  - random_state: 54340
+    type: dense
+  - random_state: 44078
+    type: dense
+  - random_state: 78832
+    type: dense
+  - random_state: 51293
+    type: dense
+  - random_state: 95981
+    type: dense
+  - random_state: 78781
+    type: dense
+  - random_state: 60403
+    type: dense
+  - random_state: 29124
+    type: dense
+  - random_state: 95435
+    type: dense
+  - random_state: 43919
+    type: dense
+  - random_state: 35247
+    type: dense
+  - random_state: 94758
+    type: dense
+  - random_state: 91747
+    type: dense
+  - random_state: 62752
+    type: dense
+  - random_state: 56573
+    type: dense
+  - random_state: 59101
+    type: dense
+  - random_state: 26646
+    type: dense
+  - random_state: 23049
+    type: dense
+  - random_state: 79605
+    type: dense
+  - random_state: 98116
+    type: dense
+  - random_state: 97379
+    type: dense
+  - random_state: 68385
+    type: dense
+  - random_state: 40158
+    type: dense
+  - random_state: 65417
+    type: dense
+  - random_state: 23289
+    type: dense
+  - random_state: 9823
+    type: dense
+  - random_state: 60160
+    type: dense
+  - random_state: 41975
+    type: dense
+  - random_state: 9540
+    type: dense
+  - random_state: 16364
+    type: dense
+  - random_state: 4611
+    type: dense
+  - random_state: 27663
+    type: dense
+  - random_state: 51991
+    type: dense
+  - random_state: 57679
+    type: dense
+  - random_state: 30977
+    type: dense
+  - random_state: 94704
+    type: dense
+  - random_state: 49115
+    type: dense
+  - random_state: 91007
+    type: dense
+  - random_state: 88223
+    type: dense
+  - random_state: 60890
+    type: dense
+  - random_state: 66387
+    type: dense
+  - random_state: 18071
+    type: dense
+  - random_state: 59275
+    type: dense
+  - random_state: 72369
+    type: dense
+  - random_state: 11938
+    type: dense
+  - random_state: 35195
+    type: dense
+  - random_state: 91680
+    type: dense
+  - random_state: 4000
+    type: dense
+  - random_state: 70588
+    type: dense
+  - random_state: 93610
+    type: dense
+  - random_state: 97856
+    type: dense
+  - random_state: 38304
+    type: dense
+  - random_state: 69449
+    type: dense
+  - random_state: 82986
+    type: dense
+  - random_state: 89643
+    type: dense
+  - random_state: 20764
+    type: dense
+  - random_state: 86027
+    type: dense
+  - random_state: 38494
+    type: dense
+  - random_state: 3373
+    type: dense
+  - random_state: 12161
+    type: dense
+  - random_state: 97532
+    type: dense
+  - random_state: 92658
+    type: dense
+  - random_state: 27350
+    type: dense
+  - random_state: 93008
+    type: dense
+  - random_state: 94297
+    type: dense
+  - random_state: 25351
+    type: dense
+  - random_state: 88668
+    type: dense
+  - random_state: 15305
+    type: dense
+  - random_state: 75353
+    type: dense
+  - random_state: 76797
+    type: dense
+  - random_state: 65953
+    type: dense
+  - random_state: 57458
+    type: dense
+  - random_state: 20358
+    type: dense
+  - random_state: 3267
+    type: dense
+  - random_state: 82745
+    type: dense
+  - random_state: 89588
+    type: dense
+  - random_state: 38513
+    type: dense
+  - random_state: 26092
+    type: dense
+  - random_state: 11338
+    type: dense
+  - random_state: 412
+    type: dense
+  - random_state: 7543
+    type: dense
+  - random_state: 33496
+    type: dense
+  - random_state: 60692
+    type: dense
+  - random_state: 89084
+    type: dense
+  - random_state: 92920
+    type: dense
+  - random_state: 44425
+    type: dense
+  - random_state: 38756
+    type: dense
+  - random_state: 18888
+    type: dense
+  - random_state: 35735
+    type: dense
+  - random_state: 47295
+    type: dense
+  - random_state: 83042
+    type: dense
+  - random_state: 85999
+    type: dense
+  - random_state: 17955
+    type: dense
+  - random_state: 37841
+    type: dense
+  - random_state: 70640
+    type: dense
+  - random_state: 65510
+    type: dense
+  - random_state: 34911
+    type: dense
+  - random_state: 59031
+    type: dense
+  - random_state: 88726
+    type: dense
+  - random_state: 7357
+    type: dense
+  - random_state: 32479
+    type: dense
+  - random_state: 61476
+    type: dense
+  - random_state: 44811
+    type: dense
+  - random_state: 36208
+    type: dense
+  - random_state: 20150
+    type: dense
+  - random_state: 71180
+    type: dense
+  - random_state: 43286
+    type: dense
+  - random_state: 68450
+    type: dense
+  - random_state: 21352
+    type: dense
+  - random_state: 55069
+    type: dense
+  - random_state: 14397
+    type: dense
+  - random_state: 41555
+    type: dense
+  - random_state: 46959
+    type: dense
+  - random_state: 728
+    type: dense
+  - random_state: 50517
+    type: dense
+  - random_state: 66234
+    type: dense
+  - random_state: 39954
+    type: dense
+  - random_state: 47280
+    type: dense
+  - random_state: 79459
+    type: dense
+  - random_state: 16779
+    type: dense
+  - random_state: 63932
+    type: dense
+  - random_state: 72936
+    type: dense
+  - random_state: 24466
+    type: dense
+  - random_state: 36939
+    type: dense
+  - random_state: 69896
+    type: dense
+  - random_state: 35270
+    type: dense
+  - random_state: 59163
+    type: dense
+  - random_state: 82637
+    type: dense
+  - random_state: 51934
+    type: dense
+  - random_state: 64895
+    type: dense
+  - random_state: 32307
+    type: dense
+  - random_state: 54098
+    type: dense
+  - random_state: 60921
+    type: dense
+  - random_state: 5486
+    type: dense
+  - random_state: 8335
+    type: dense
+  - random_state: 86900
+    type: dense
+  - random_state: 89112
+    type: dense
+  - random_state: 97203
+    type: dense
+  - random_state: 11130
+    type: dense
+  two_token_input: false
+exp_dir: ./data/markov_mixture/final_v1/default_long_rope_only_depths/n_layer=6/n=256
+mask_loss: false
+memo:
+  flops_per_step: 277830696960
+model_params:
+  gpt_config:
+    in_size: 676
+    n_embd: 64
+    n_head: 4
+    n_layer: 6
+    pos_embed: false
+    rope: true
+    tokenized: true
+  model_type: transformer
+  optimizer_params:
+    betas:
+    - 0.9
+    - 0.95
+    lr: 0.0006
+    weight_decay: 0.1
+  optimizer_type: AdamW
+seed: 0
+task: markov_mixture
+training_params:
+  n_steps: 35993
+  save_opt: false
+  save_steps:
+  - 29
+  - 34
+  - 40
+  - 46
+  - 53
+  - 61
+  - 71
+  - 82
+  - 95
+  - 110
+  - 127
+  - 147
+  - 170
+  - 196
+  - 227
+  - 262
+  - 303
+  - 351
+  - 405
+  - 468
+  - 541
+  - 626
+  - 723
+  - 836
+  - 966
+  - 1117
+  - 1291
+  - 1491
+  - 1724
+  - 1992
+  - 2302
+  - 2661
+  - 3075
+  - 3554
+  - 4108
+  - 4747
+  - 5486
+  - 6340
+  - 7328
+  - 8468
+  - 9787
+  - 11311
+  - 13072
+  - 15107
+  - 17459
+  - 20177
+  - 23318
+  - 26948
+  - 31144
+  - 35992
+wandb:
+  group: final_v1/default_long_rope_only_depths
+  name: n_layer=6_n=256
+  project: markov_mixture
