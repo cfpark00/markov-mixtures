@@ -74,7 +74,7 @@ if __name__=="__main__":
         # Context length
         n_context=args.n_context
         if n_context==-2:
-            max_c_to_eval=2*k+l
+            max_c_to_eval=l-2*k
             n_contexts=[1,10,40,70,100,130,160,190,220,250,280,310,340,370,400]
             if not all([c<=max_c_to_eval for c in n_contexts]):
                 n_contexts=[c for c in n_contexts if c<=max_c_to_eval]
