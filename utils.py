@@ -831,6 +831,7 @@ def get_markov_dataset_single(k,l,structured=False,random_state=None):
 def sample_seq_all_last(dataset,k,max_context):
     while True:#almost 100% true but just make sure
         seq_single=dataset.get_data()
+        assert len(seq_single)>=(2*k+max_context),"Sequence too short"
         if any([i not in seq_single for i in range(k)]):
             continue
         i_last_locs=[]

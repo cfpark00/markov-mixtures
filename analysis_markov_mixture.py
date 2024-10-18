@@ -31,6 +31,10 @@ if __name__=="__main__":
     yaml_path=args.yaml_path
 
     config=utils.load_config(yaml_path)
+    ks=torch.tensor(config["data_params"]["ks"])
+    assert len(torch.unique(ks))==1
+    k=ks[0]
+    l=config["data_params"]["l"]
     #remove curriculum for analysis
     if "curriculum" in config["data_params"]:
         del config["data_params"]["curriculum"]
@@ -70,8 +74,13 @@ if __name__=="__main__":
         # Context length
         n_context=args.n_context
         if n_context==-2:
+            max_c_to_eval=2*k+l
             n_contexts=[1,10,40,70,100,130,160,190,220,250,280,310,340,370,400]
+            if not all([c<=max_c_to_eval for c in n_contexts]):
+                n_contexts=[c for c in n_contexts if c<=max_c_to_eval]
+                print("Using: n_contexts",n_contexts)
         else:
+            assert n_context<=l, "Context length must be less than sequence length"
             n_contexts=[n_context]
 
         # Checkpoint index and path
@@ -98,9 +107,6 @@ if __name__=="__main__":
         model=torch.compile(model)
 
         #Setup original dataset
-        ks=torch.tensor(config["data_params"]["ks"])
-        assert len(torch.unique(ks))==1
-        k=ks[0]
         priors=torch.tensor(config["data_params"]["ps"])
         dataset=utils.get_dataset(config)
         for d in dataset.datasets:
