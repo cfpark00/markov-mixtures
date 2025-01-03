@@ -1,6 +1,6 @@
 # Competition Dynamics Shape Algorithmic Phases of In-Context Learning
 
-#### Core Francisco Park$^*$, Ekdeep Singh Lubana$^*$, Itamar Pres, Hidenori Tanaka$^\dagger$
+#### Core Francisco Park<sup>\*</sup>, Ekdeep Singh Lubana<sup>\*</sup>, Itamar Pres, Hidenori Tanaka<sup>$\dagger$</sup>
 
 Arxiv Preprint: [https://arxiv.org/abs/2412.01003](https://arxiv.org/abs/2412.01003)
 
